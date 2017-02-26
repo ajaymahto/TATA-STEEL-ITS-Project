@@ -1,0 +1,63 @@
+/*********Printing Result Table!********/
+echo "<table border='1'>									
+<tr>
+<th>PO_ID</th>
+<th>ODR_CHR_ID</th>
+<th>PO_CHR_VALUE</th>
+</tr>";
+while($row = mysqli_fetch_array($result)) {
+  echo "<tr>";
+  echo "<td>" . $row['PO_ID'] . "</td>";
+  echo "<td>" . $row['ODR_CHR_ID'] . "</td>";
+  echo "<td>" . $row['PO_CHR_VALUE'] . "</td>";
+  echo "</tr>";
+}
+echo "</table>";
+/*****************/
+
+
+
+COPIED : 
+"SELECT * FROM route_operation_characteristic WHERE ROUTE_ID = '".$po_id."'"
+
+
+
+echo "Material_Chars!!";
+			echo "<br>";
+			
+			echo "Quality Code : ".$mu_quality_code."";
+			echo "<br>";
+			echo "Section1     : ".$mu_section1."";
+			echo "<br>";
+			echo "Section2     : ".$mu_section2."";
+			echo "<br>";
+			echo "<br>";
+			
+			
+			
+			
+			echo "Prod_Order_Chars!!";
+			echo "<br>";
+			echo "Quality Code : ".$po_quality_code."";
+			echo "<br>";
+			echo "Section1 :- Min :".$po_section1_min." Max : ".$po_section1_max."";
+			echo "<br>";
+			echo "Section2 :- Min :".$po_section2_min." Max : ".$po_section2_max."";
+			echo "<br>";	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		/	****************************************************************************************	/
+			
+			<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © "STEEL" CHALEY HUM</div>
+
+</div>

@@ -1,0 +1,1 @@
+SELECT * FROM prod_order_characteristic WHERE ODR_CHR_ID = 'PLANT_CODE' OR CHR_ID = 'SOURCING_PLANT';
